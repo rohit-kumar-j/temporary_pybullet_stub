@@ -557,7 +557,7 @@ def getJointStateMultiDof(bodyUniqueId:int,jointIndex:int,physicsClientId:int=0,
     """ Get the state (position, velocity etc) for a joint on a body. (supports planar and spherical joints) """
     pass
 
-def getJointStates(bodyUniqueId:int,jointIndex:list[int],physicsClientId:int=0,*args, **kwargs): # real signature unknown
+def getJointStates(bodyUniqueId:int,jointIndices:list[int],physicsClientId:int=0,*args, **kwargs): # real signature unknown
     """ Get the state (position, velocity etc) for multiple joints on a body. """
     pass
 
