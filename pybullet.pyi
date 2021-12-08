@@ -782,8 +782,9 @@ def resetBaseVelocity(objectUniqueId:int,linearVelocity:list[float],angularVeloc
     """ Reset the linear and/or angular velocity of the base of the object  in world space coordinates. linearVelocity (x,y,z) and angularVelocity (x,y,z). """
     pass
 
-def resetDebugVisualizerCamera(*args, **kwargs): # real signature unknown
-    """ For the 3D OpenGL Visualizer, set the camera distance, yaw, pitch and target position. """
+def resetDebugVisualizerCamera(cameraDistance:float,cameraYaw:float,cameraPitch:float,cameraTargetPosition:list[float],physicsClientId:int=0) -> None: # real signature unknown
+    """ For the 3D OpenGL Visualizer, set the camera distance, yaw, pitch and target position. 
+    Example: pybullet.resetDebugVisualizerCamera( cameraDistance=3, cameraYaw=30,cameraPitch=52, cameraTargetPosition=[0,0,0])"""
     pass
 
 def resetJointState(objectUniqueId:int, jointIndex:int, targetValue:float, targetVelocity:int=0, physicsClientId:int=0): # real signature unknown; restored from __doc__
