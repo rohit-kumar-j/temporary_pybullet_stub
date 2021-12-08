@@ -414,6 +414,7 @@ def configureDebugVisualizer(flag:int,enable:int,lightPosition:list[float],shado
 def connect(method, key=None, options=''): # real signature unknown; restored from __doc__
     """
     connect(method, key=SHARED_MEMORY_KEY, options='')
+    options='--background_color_red=1.0 --background_color_green=0.0 --background_color_blue=0.0'
     connect(method, hostname='localhost', port=1234, options='')
     Connect to an existing physics server (using shared memory by default).
     """
