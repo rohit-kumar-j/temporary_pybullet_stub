@@ -582,7 +582,7 @@ def getLinkState(bodyUniqueId:int, linkIndex:int, computeLinkVelocity:int=0, com
     """
     pass
 
-def getLinkStates(objectUniqueId:int, linkIndices:list[int], computeLinkVelocity:int=0, computeForwardKinematics:int=0, physicsClientId:int=0,*args, **kwargs): # real signature unknown
+def getLinkStates(bodyUniqueId:int, linkIndices:list[int], computeLinkVelocity:int=0, computeForwardKinematics:int=0, physicsClientId:int=0,*args, **kwargs): # real signature unknown
     """ same as getLinkState except it takes a list of linkIndices """
     pass
 
