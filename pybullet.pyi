@@ -570,13 +570,13 @@ def getKeyboardEvents(physicsClientId:int=0,*args, **kwargs): # real signature u
     """ Get keyboard events, keycode and state (KEY_IS_DOWN, KEY_WAS_TRIGGERED, KEY_WAS_RELEASED) """
     pass
 
-def getLinkState(objectUniqueId:int, linkIndex:int, computeLinkVelocity:int=0, computeForwardKinematics:int=0, physicsClientId:int=0): # real signature unknown; restored from __doc__
+def getLinkState(bodyUniqueId:int, linkIndex:int, computeLinkVelocity:int=0, computeForwardKinematics:int=0, physicsClientId:int=0): # real signature unknown; restored from __doc__
     """
     position_linkcom_world, world_rotation_linkcom,
     position_linkcom_frame, frame_rotation_linkcom,
     position_frame_world, world_rotation_frame,
     linearVelocity_linkcom_world, angularVelocity_linkcom_world
-      = getLinkState(objectUniqueId, linkIndex, computeLinkVelocity=0,
+      = getLinkState(bodyUniqueId, linkIndex, computeLinkVelocity=0,
                      computeForwardKinematics=0, physicsClientId=0)
     Provides extra information such as the Cartesian world coordinates center of mass (COM) of the link, relative to the world reference frame.
     """
