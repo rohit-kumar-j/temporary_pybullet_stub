@@ -885,7 +885,7 @@ def setJointMotorControl2(bodyIndex:int,jointIndex:int,controlMode:int,targetPos
     """ Set a single joint motor control mode and desired target value. There is no immediate state change, stepSimulation will process the motors. """
     pass
 
-def setJointMotorControlArray(bodyUniqueId:int,jointIndices:list[int],controlMode:int,targetPositions:list[float],targetVelocities:list[float],forces:list[float],positionGains:list[float],velocityGains:list[float],maxVelocities:list[float],physicsClientId:int=0,*args, **kwargs): # real signature unknown
+def setJointMotorControlArray(bodyIndex:int,jointIndices:list[int],controlMode:int,targetPositions:list[float],targetVelocities:list[float],forces:list[float],positionGains:list[float],velocityGains:list[float],maxVelocities:list[float],physicsClientId:int=0,*args, **kwargs): # real signature unknown
     """ Set an array of motors control mode and desired target value. There is no immediate state change, stepSimulation will process the motors.This is similar to setJointMotorControl2, with jointIndices as a list, and optional targetPositions, targetVelocities, forces, kds and kps as listsUsing setJointMotorControlArray has the benefit of lower calling overhead. """
     pass
 
