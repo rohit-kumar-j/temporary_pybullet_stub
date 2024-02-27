@@ -375,7 +375,7 @@ def changeConstraint(parentBodyUniqueId:int,parentLinkIndex:int,childBodyUniqueI
     """ Change some parameters of an existing constraint, such as the child pivot or child frame orientation, using its unique id. """
     pass
 
-def changeDynamics(bodyUniqueId:int,linkIndex:int,mass:float,lateralFriction:float,spinningFriction:float,rollingFriction:float,restitution:float,linearDamping:float,angularDamping:float,contactStiffness:float,contactDamping:float,frictionAnchor:int,localInertiaDiagnoal:list,ccdSweptSphereRadius:float,contactProcessingThreshold:float,activationState:int,jointDamping:float,anisotropicFriction:float,maxJointVelocity:float,collisionMargin:float,jointLowerLimit:float,jointUpperLimit:float,jointLimitForce:float,physicsClientId:int,*args, **kwargs): # real signature unknown
+def changeDynamics(bodyUniqueId:int,linkIndex:int,mass:float,lateralFriction:float,spinningFriction:float,rollingFriction:float,restitution:float,linearDamping:float,angularDamping:float,contactStiffness:float,contactDamping:float,frictionAnchor:int,localInertiaDiagonal:list,ccdSweptSphereRadius:float,contactProcessingThreshold:float,activationState:int,jointDamping:float,anisotropicFriction:float,maxJointVelocity:float,collisionMargin:float,jointLowerLimit:float,jointUpperLimit:float,jointLimitForce:float,physicsClientId:int,*args, **kwargs): # real signature unknown
     """ change dynamics information such as mass, lateral friction coefficient. """
     pass
 
